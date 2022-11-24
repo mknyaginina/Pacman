@@ -1,0 +1,110 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	background-color:  #010211;
+	text-align: center;
+	vertical-align:middle
+}
+
+#table{
+	border-spacing: 0px;
+	display: block;
+}
+
+#table td{
+	width: 20px;
+	height: 20px;
+}
+
+h3{
+	color: #FDFEF1;
+	text-align: left;
+}
+
+
+.pac-dot{
+	color: #F9FED2;
+}
+.pacman img{
+	width: 18px;
+	height: 18px;
+}
+
+.wall{
+	background-color:#060AA4;
+}
+
+.ghost img{
+	width: 18px;
+	height: 18px;
+}
+
+.button{
+	display: block;
+	color: #F2EF00;
+	background-color:#060AA4;
+	text-decoration: none;
+	font-size: 20px; 
+	margin: 10px 0px;
+	width: 180px;
+
+}
+.button:hover{
+	background-color:#080B7A;
+
+}
+
+h2{
+	color: #060AA4;
+	margin: 10px;
+	border-spacing: 0px;
+}
+
+#scoreTable{
+	border: solid 2px #060AA4;
+	border-spacing: 0px;
+	font-size: 20px;
+	color: #F9FFD0;
+}
+#scoreTable td{
+	padding: 7px 15px;
+	border: solid 2px #060AA4;
+}
+
+#scoreTable th{
+	padding: 7px 15px;
+	border: solid 2px #060AA4;
+	font-weight: bold;
+	font-size: 21px;
+}
+#scoreTable .UserName{
+	width: 300px;
+}
+#scoreTable .ScoreCell{
+	width: 150px;
+}
+	
+header{
+	margin: 10px 0px;
+	color: #F2EF00;
+	font-size: 26px;
+	font-style: oblique;
+	font-family: Georgia, Serif;
+}
+
+
+img{
+	width: 540px;
+}
+
+body {
+	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+}
+
+.menu{
+	width: 180px;
+}
